@@ -1,0 +1,22 @@
+{
+  "name": "codexp/f3phar",
+  "description": "creates fat-free framework in a phar for easy deployment (f3.phar)",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "codexp",
+      "email": "codexp@gmx.net"
+    }
+  ],
+  "require": {
+    "php": ">=5.3.6",
+    "bcosca/fatfree": "~3."
+  },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/codexp/f3phar"
+    }
+  ]
+}
